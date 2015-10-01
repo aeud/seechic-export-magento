@@ -1,0 +1,14 @@
+{
+    "Contact Lenses": [
+        "cl_power",
+        "cl_base_curve",
+        "cl_diameter",
+        "cl_cyl_for_toric",
+        "cl_axis_for_toric",
+        "cl_add_power",
+        "cl_base_colour"
+    ],
+    "Sunglasses": [
+        "sg_colour_frame_lens_polar"
+    ]
+}

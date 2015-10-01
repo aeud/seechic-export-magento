@@ -1,0 +1,24 @@
+{
+    "Contact Lenses": {
+        "_attribute_set": "Contact Lenses",
+        "_category": "Contact Lenses",
+        "_root_category": "Default Category",
+        "_product_websites": "sg",
+        "ebizmarts_mark_visited": "No",
+        "is_returnable": "Use config",
+        "msrp_display_actual_price_type": "Use config",
+        "msrp_enabled": "Use config",
+        "options_container": "Product Info Column"
+    },
+    "Sunglasses": {
+        "_attribute_set": "Sunglasses",
+        "_category": "Sunglasses",
+        "_root_category": "Default Category",
+        "_product_websites": "sg",
+        "ebizmarts_mark_visited": "No",
+        "is_returnable": "Use config",
+        "msrp_display_actual_price_type": "Use config",
+        "msrp_enabled": "Use config",
+        "options_container": "Product Info Column"
+    }
+}
