@@ -14,7 +14,7 @@ app.get('/', (req, res, next) => {
 app.post('/exec', multipartMiddleware, (req, res) => {
     var type = req.body.type || 'Contact Lenses'
     if (/^(Contact Lenses|Sunglasses)$/g.test(type)) {
-        converter.exec(fs.readFileSync(req.files.file.path, 'utf-8'), 'Contact Lenses', (err, string) => {
+        converter.exec(fs.readFileSync(req.files.file.path, 'utf-8'), type, (err, string) => {
             gz = zlib.gzipSync(string)
             res.setHeader('Content-disposition', 'attachment; filename=magnento-export.csv');
             res.setHeader('Content-type', 'text/csv');
