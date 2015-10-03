@@ -1,3 +1,5 @@
+#! /usr/local/bin/node
+
 var fs = require('fs')
 var converter = require('./lib/converter')
 var commander = require('commander')
