@@ -1,8 +1,8 @@
-var fs = require('fs')
+var fs        = require('fs')
 var converter = require('./lib/converter')
-var express     = require('express')
-var zlib = require('zlib')
-var app         = express()
+var express   = require('express')
+var zlib      = require('zlib')
+var app       = express()
 var multipart = require('connect-multiparty')
 
 var multipartMiddleware = multipart()

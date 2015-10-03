@@ -10,6 +10,7 @@
     "csv": "x",
     "express": "4.x",
     "body-parser": "x",
-    "connect-multiparty": "x"
+    "connect-multiparty": "x",
+    "commander": "x"
   }
 }
