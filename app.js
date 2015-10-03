@@ -1,10 +1,12 @@
+#! /usr/local/bin/node
+
 var fs        = require('fs')
 var converter = require('./lib/converter')
 var express   = require('express')
 var zlib      = require('zlib')
-var app       = express()
 var multipart = require('connect-multiparty')
 
+var app = express()
 var multipartMiddleware = multipart()
 
 app.get('/', (req, res, next) => {
